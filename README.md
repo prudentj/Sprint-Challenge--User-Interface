@@ -34,22 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+I would say it is what gives the words on a webpage meaning (header vs link)
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+block has a height and width and by default will expand to end of screen. Inline just take up the space it needs and lacks several of blocks attributes.
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, BOrder, Margin
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+It will take multiple of the rows on the justify naxis and align them in the center.
 
 5. Explain why git is valuable to a team of developers.
+'It keeps track of all changes and allows people to work on the same code at once.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
@@ -74,16 +82,16 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [x] box1: `teal`
+* [x] box2: `gold`
+* [x] box3: `cadetblue`
+* [x] box4: `coral`
+* [x] box5: `crimson`
+* [x] box6: `forestgreen`
+* [x] box7: `darkorchid`
+* [x] box8: `hotpink`
+* [x] box9: `indigo`
+* [x] box10: `dodgerblue`
 
 ### About Page
 

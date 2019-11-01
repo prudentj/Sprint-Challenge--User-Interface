@@ -31,6 +31,20 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.nav-header{
+    display: flex;
+    flex-direction:column;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+.nav-header nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top:2%;
+    padding-bottom: 4%;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -79,6 +93,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -104,13 +119,45 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background: black*/;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1{
+    background:teal;
+}
+.box2{
+    background:gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background: forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+.box9{
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +190,15 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/****ABOUT PAGE STYLING****/
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
