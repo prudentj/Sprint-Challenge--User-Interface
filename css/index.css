@@ -36,6 +36,7 @@ body {
     flex-direction:column;
     padding-top:2%;
     padding-bottom: 2%;
+    
 }
 .nav-header nav{
     display:flex;
@@ -44,7 +45,16 @@ body {
     padding-top:2%;
     padding-bottom: 4%;
 }
-
+.nav-header nav a:link{
+    color:black;
+    text-decoration:none;
+}
+.nav-header nav a:visited{
+    color:black;
+}
+.nav-header nav a:hover{
+    color:red;
+}
 ol, ul {
 	list-style: none;
 }
@@ -127,6 +137,15 @@ p {
     justify-content: center;
 }
 
+  /*animation for strectch */
+.box {
+    animation-name: word_shift ;
+    animation-duration: 10s;
+}
+@keyframes word_shift{
+    from{color:white;}
+    to  {color:black;}
+}
 .box1{
     background:teal;
 }
@@ -191,6 +210,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+footer nav a:hover{
+    color: red;
+}
 
 /****ABOUT PAGE STYLING****/
 .top-content-about {
@@ -226,6 +248,10 @@ footer nav a {
     padding-left: 1%;
     padding-right:1%;
     border-radius: 8px;
+}
+.button:hover{
+    background:black;
+    color:white;
 }
 .bottom-content-about {
     display: flex;
