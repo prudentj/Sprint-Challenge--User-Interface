@@ -45,6 +45,7 @@ body {
     padding-top:2%;
     padding-bottom: 4%;
 }
+
 .nav-header nav a:link{
     color:black;
     text-decoration:none;
@@ -54,6 +55,7 @@ body {
 }
 .nav-header nav a:hover{
     color:red;
+    background:black;
 }
 ol, ul {
 	list-style: none;
@@ -187,6 +189,15 @@ p {
 .bottom-content .text-container {
     padding-right: 4%;
 }
+.bottom-content .text-container:hover{
+
+}
+.hidden-photo{
+    width: 50%;
+    display: none;
+}
+
+.hidden
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
